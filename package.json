@@ -1,0 +1,20 @@
+{
+  "name": "cs-eng-task",
+  "version": "1.0.0",
+  "description": "CS Engineer Interview Exercise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint": "^5.15.1",
+    "lodash": "^4.17.11",
+    "tap": "^12.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint . && tap test"
+  },
+  "author": "",
+  "license": "ISC"
+}

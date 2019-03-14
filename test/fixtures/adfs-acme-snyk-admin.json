@@ -1,0 +1,46 @@
+{
+    "_json": {
+      "clientID": "VERY_SECRET_CLIENT_ID",
+      "created_at": "2017-10-16T09:36:52.797Z",
+      "email": "Joe.Bloggs@acme.com",
+      "email_verified": true,
+      "family_name": "Bloggs",
+      "given_name": "Joe",
+      "groups": ["snyk-admin"],
+      "identities": [
+        {
+          "connection": "adfs-acme",
+          "isSocial": false,
+          "provider": "adfs",
+          "user_id": "adfs-acme|JoeBloggs@acme.com"
+        }
+      ],
+      "name": "Joe Bloggs",
+      "nickname": "Joe.Bloggs",
+      "sub": "adfs|adfs-acme|JoeBloggs@acme.com",
+      "updated_at": "2017-10-16T09:36:52.797Z",
+      "user_id": "adfs|adfs-acme|JoeBloggs@acme.com"
+    },
+    "_raw": "{\"email\":\"Joe.Bloggs@acme.com\",\"name\":\"Joe Bloggs\",\"given_name\":\"Joe\",\"family_name\":\"Bloggs\",\"email_verified\":true,\"clientID\":\"DHd4ujQV5MSiiBa9iqujnwi83y9Bo7de\",\"updated_at\":\"2017-10-16T09:36:52.797Z\",\"picture\":\"https://s.gravatar.com/avatar/cc51bb3b227562efcc824cfd60408579?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fgd.png\",\"user_id\":\"adfs|adfs-acme|JoeBloggs@acme.com\",\"nickname\":\"Joe.Bloggs\",\"identities\":[{\"user_id\":\"adfs-acme|JoeBloggs@acme.com\",\"provider\":\"adfs\",\"connection\":\"adfs-acme\",\"isSocial\":false}],\"created_at\":\"2017-10-16T09:36:52.797Z\",\"sub\":\"adfs|adfs-acme|JoeBloggs@acme.com\"}",
+    "displayName": "Joe Bloggs",
+    "emails": [
+      {
+        "value": "Joe.Bloggs@acme.com"
+      }
+    ],
+    "id": "adfs|adfs-acme|JoeBloggs@acme.com",
+    "identities": [
+      {
+        "connection": "adfs-acme",
+        "isSocial": false,
+        "provider": "adfs",
+        "user_id": "adfs-acme|JoeBloggs@acme.com"
+      }
+    ],
+    "name": {
+      "familyName": "Bloggs",
+      "givenName": "Joe"
+    },
+    "nickname": "Joe.Bloggs",
+    "provider": "adfs"
+  }
