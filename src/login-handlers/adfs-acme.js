@@ -1,11 +1,11 @@
 const _ = require('lodash');
-const auth0Common = require('./auth0-common');
+const auth0Common = require('../auth0-common');
 
 module.exports = profile => {
   const addAsGroupAdmin = [];
   const addAsGroupReadOnly = [];
 
-  const groupId = '12baa414-a1e6-4fc1-93ff-8ef3f4ed5831';
+  const groupId = 'acme-group';
 
   const profileGroups = _.get(profile, '_json.groups', []);
 
