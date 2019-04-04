@@ -1,5 +1,22 @@
 # Customer Success Task
 
+## Installation
+
+1. Clone this repo
+   ```
+   git clone git@github.com:snyk/cs-eng-task.git
+   ```
+2. Install dependencies
+   ```
+   npm install
+   ```
+
+## Running the tests
+
+```
+npm test
+```
+
 ## Exercise
 
 This repo is a simplified version of our system that handles user logins and ensures that they get access to the correct groups.
