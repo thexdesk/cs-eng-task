@@ -2,11 +2,16 @@
 
 ## Installation
 
-1. Clone this repo
+1. If you have `git` available, you can clone this repo:
    ```
    git clone git@github.com:snyk/cs-eng-task.git
    ```
-2. Install dependencies
+
+   Otherwise, please [download it](https://github.com/snyk/cs-eng-task/archive/master.zip) to your machine.
+
+2. [Install Node](https://nodejs.org/en/download/) if you don't have it already
+
+3. Install dependencies
    ```
    npm install
    ```
