@@ -1,8 +1,11 @@
+const fs = require('fs');
 const test = require('tap').test;
 
 const adfsAcme = require('../../src/login-handlers/adfs-acme');
-const adfsAcmeProfile = require('../fixtures/adfs-acme.json');
-const adfsAcmeProfileSnykAdmin = require('../fixtures/adfs-acme-snyk-admin.json');
+const fixturesDir = __dirname.replace('login-handlers', '') + 'fixtures';
+const adfsAcmeProfile = JSON.parse(fs.readFileSync(fixturesDir + '/adfs-acme.json', 'utf8'));
+const adfsAcmeProfileSnykAdmin = JSON.parse(fs.readFileSync(fixturesDir + '/adfs-acme-snyk-admin.json', 'utf8'));
+
 
 test('adfs-acme login strategy - not snyk-admin', t => {
   const result = adfsAcme(adfsAcmeProfile);
