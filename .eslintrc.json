@@ -1,10 +1,6 @@
 {
     "parserOptions": {
-      "ecmaFeatures": {
-        "//": "this setting is deprecated, but node8 doesn't fully support ecma2018 so using it anyway",
-        "experimentalObjectRestSpread": true
-      },
-      "ecmaVersion": 2017
+      "ecmaVersion": 2018
     },
     "env": {
       "node": true,
