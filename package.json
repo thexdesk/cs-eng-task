@@ -13,8 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "eslint . && tap test"
+    "test": "eslint . && tap test -R spec"
   },
-  "author": "",
   "license": "ISC"
 }
