@@ -10,12 +10,12 @@
     "eslint": "^5.15.1",
     "lodash": "^4.17.11",
     "tap": "^12.6.0",
-    "snyk": "^1.251.1"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {},
   "scripts": {
     "test": "eslint . && tap test -R spec",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "license": "ISC",
